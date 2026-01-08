@@ -1,1 +1,26 @@
+FlexiMart ETL Data Quality Report
+Generated at: 2026-01-08T23:05:00
 
+Customers
+- Records processed: 25
+- Duplicates removed: 1
+- Missing emails dropped: 5
+- Phones standardized to null (invalid): 0
+- Dates parsed: 19
+- Records loaded: 19
+
+Products
+- Records processed: 20
+- Duplicates removed: 0
+- Categories standardized: 20
+- Missing stock filled with 0: 1
+- Missing prices imputed: 3
+- Records loaded: 20
+
+Sales / Orders
+- Records processed: 40
+- Duplicates removed: 1
+- Missing customer/product IDs dropped: 5
+- Dates parsed: 34
+- Orders loaded: 34
+- Order items loaded: 34
